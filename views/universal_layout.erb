@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>EtherProperty / Property Form </title>
+    <meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=0.5" />
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/universal_link.css"/>
+    <%= yield_content :header_css %>
+    <script type="text/javascript" src="../javascript/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript" src="../javascript/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../javascript/bootstrap.bundle.min.js" ></script>
+    <%= yield_content :header_js %>
+  </head>
+  <body>
+    <%= yield %>
+  </body>
+</html>

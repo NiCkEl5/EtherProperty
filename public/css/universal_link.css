@@ -1,0 +1,22 @@
+body{
+    background: linear-gradient(rgba(197, 197, 197, 0.45), #e2e2e2),url('https://picsum.photos/1024/768') no-repeat left top;
+    background-size: 100% 100%;
+}
+.fontColor{
+    color: #FFFF;
+    font-family: spotify-circular,spotify-circular-arabic,spotify-circular-hebrew,Helvetica Neue,Helvetica,Arial,Hiragino Kaku Gothic Pro,Meiryo,MS Gothic,sans-serif;
+}
+.mainContainer {
+    padding: 20px;
+    background: linear-gradient(rgba(177, 177, 177, 0.7), rgba(118, 118, 118, 0.45)) no-repeat left top;
+    border-radius: 10px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+}
+.container {
+    position: relative;
+}

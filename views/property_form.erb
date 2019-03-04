@@ -1,0 +1,21 @@
+
+  <div class="mainContainer fontColor col-12">
+
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" id="propertyName" placeholder="Enter property name">
+    </div>
+
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" id="propertyDescription" placeholder="Enter property description">
+    </div>
+
+    <button class="btn btn-primary" id="propertySubmit">Submit</button>
+  </div>
+
+
+
+<% content_for :header_js do %>
+    <script type="text/javascript" src="../javascript/property.js" ></script>
+    <script src="https://rawgit.com/ethereum/web3.js/0.16.0/dist/web3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ethjs@0.3.0/dist/ethjs.min.js"></script>
+<% end %>

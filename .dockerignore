@@ -1,0 +1,9 @@
+.git
+.dockerignore
+log/*
+.DS_Store
+.gitignore
+.idea
+README.md
+.ruby-gemset
+.ruby-version
